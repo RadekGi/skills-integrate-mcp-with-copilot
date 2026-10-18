@@ -57,6 +57,69 @@ section h3 {
   color: #1a237e;
 }
 
+.leader-tools {
+  margin: 18px 0;
+  padding: 12px;
+  background: #fff8e1;
+  border-radius: 5px;
+}
+
+.leader-tools label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.leader-tools input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.leader-tools p {
+  margin-top: 6px;
+  font-size: 0.9em;
+}
+
+.club-card {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.club-card h4 {
+  margin-bottom: 8px;
+  color: #0066cc;
+}
+
+.club-card p {
+  margin-bottom: 8px;
+}
+
+.club-management {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed #ccc;
+}
+
+.club-management li {
+  margin: 8px 0;
+}
+
+.club-management select {
+  margin: 0 6px;
+  padding: 5px;
+}
+
+.club-management button,
+.club-card button {
+  margin: 4px;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
