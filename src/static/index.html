@@ -13,6 +13,26 @@
     </header>
 
     <main>
+      <section id="clubs-container">
+        <h3>Clubs and Memberships</h3>
+        <p>Browse clubs, request membership, and check your membership status.</p>
+        <form id="club-student-form">
+          <div class="form-group">
+            <label for="club-student-email">Student Email:</label>
+            <input type="email" id="club-student-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <button type="submit">Show My Memberships</button>
+        </form>
+        <div class="leader-tools">
+          <label for="club-leader-email">Demo club leader email:</label>
+          <input type="email" id="club-leader-email" placeholder="club-leader@mergington.edu" />
+          <p>Email-only leader checks are for this exercise and are not secure authentication.</p>
+        </div>
+        <div id="clubs-list">
+          <p>Enter your student email to view clubs and membership status.</p>
+        </div>
+      </section>
+
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
